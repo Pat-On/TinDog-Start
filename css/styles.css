@@ -51,4 +51,49 @@ h1 {
 
 .rotated {
   transform: rotate(25deg);
+  overflow: hidden;
+}
+.button-title {
+  margin-right: 1rem;
+}
+
+/* First Section */
+.first-section {
+  padding-top: 5rem;
+}
+
+.first-row{
+  text-align: center;
+}
+
+/* .try{
+  padding: 0;
+  margin:0;
+} */
+
+.h3-second-section {
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-box {
+  padding: 5%;
+}
+.p-second-section {
+  color: #8f8f8f;
+}
+
+.font-picture{
+  color: #ef8173;
+  margin-bottom: 1rem;
+}
+
+.font-picture:hover{
+  color: #ff4c68;
+}
+
+/* Feateures */
+#features {
+  padding: 7% 15%;
 }
