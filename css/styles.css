@@ -97,3 +97,40 @@ h1 {
 #features {
   padding: 7% 15%;
 }
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8173;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: bold;
+}
+
+.dog-image2{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* PRESS */
+#press{
+  background-color: #ef8173;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
