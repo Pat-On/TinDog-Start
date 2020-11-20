@@ -153,3 +153,19 @@ h2 {
 .price-col {
   padding: 3% 2%;
 }
+
+@media (max-width:1000px) {
+#title {
+  text-align: center;
+}
+
+  .dog-image {
+    position: static;
+    margin-top: 3rem;
+  }
+
+  .rotated {
+    transform: rotate(0deg);
+  }
+
+}
