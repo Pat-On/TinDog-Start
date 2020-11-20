@@ -1,12 +1,25 @@
-body {
-font-family: "Montserrat";
-  }
+/* TODO: Refactor CSS  */
 
-#title {
-  background-color: #ff4c68;
+
+body {
+  font-family: "Montserrat";
 }
 
-h1 {
+h1, h2, h3, h4 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 5rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.big-heading {
   font-family: "Montserrat-Black";
   font-size: 4.5rem;
   line-height: 1.5;
@@ -14,14 +27,12 @@ h1 {
   font-weight: bold;
 }
 
-.container-fluid {
-  padding: 3% 15% 7%;
-}
-
-
-
 /* Navigation bar  */
 /* first you have to put less specific and later more specific from top to bottom bla bla */
+#title {
+  background-color: #ff4c68;
+}
+
 .navbar {
   padding: 0 0 5rem 0;
 }
@@ -31,6 +42,7 @@ h1 {
   font-size: 2.5rem;
   font-weight: bold;
 }
+
 .navbar-nav {
   padding-right: 7rem;
 }
@@ -39,7 +51,7 @@ h1 {
   padding: 0 15px 0 15px;
 }
 
-.nav-item a{
+.nav-item a {
   font-size: 1.5rem;
   font-family: "Montserrat-Light";
 }
@@ -55,6 +67,7 @@ h1 {
   transform: rotate(25deg);
   overflow: hidden;
 }
+
 .button-title {
   margin-right: 1rem;
 }
@@ -68,7 +81,7 @@ h1 {
   width: 100%;
 }
 
-.first-row{
+.first-row {
   text-align: center;
 }
 
@@ -76,7 +89,6 @@ h1 {
   padding: 0;
   margin:0;
 } */
-
 .h3-second-section {
   font-family: "Montserrat-bold";
   font-size: 1.5rem;
@@ -86,16 +98,17 @@ h1 {
 .feature-box {
   padding: 5%;
 }
+
 .p-second-section {
   color: #8f8f8f;
 }
 
-.font-picture{
+.font-picture {
   color: #ef8173;
   margin-bottom: 1rem;
 }
 
-.font-picture:hover{
+.font-picture:hover {
   color: #ff4c68;
 }
 
@@ -105,32 +118,24 @@ h1 {
 }
 
 /* Testimonials */
-
 #testimonials {
   text-align: center;
   background-color: #ef8173;
   color: #fff;
 }
 
-h2 {
-  font-family: "Montserrat-bold";
-  font-size: 4rem;
-  line-height: 5rem;
-  font-weight: bold;
-}
-
-.dog-image2{
+.dog-image2 {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
 
 .carousel-item {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 /* PRESS */
-#press{
+#press {
   background-color: #ef8173;
   text-align: center;
   padding-bottom: 3%;
@@ -142,18 +147,17 @@ h2 {
 }
 
 #pricing {
-    text-align: center;
-    padding: 3% 5%;
+  text-align: center;
+  padding: 3% 5%;
 }
 
 .rowly {
-    text-align: center;
+  text-align: center;
 }
 
 .price-col {
   padding: 3% 2%;
 }
-
 
 /* ROW PART  */
 #cta {
@@ -171,10 +175,9 @@ h2 {
 }
 
 #footer {
-  background-color:white;
+  background-color: white;
   text-align: center;
   padding: 7% 15%;
-
   /* padding-bottom:0; */
 }
 
@@ -182,13 +185,11 @@ h2 {
   margin: 10px 20px;
 }
 
-
 /* MEDIA QUERRies */
-
 @media (max-width:1000px) {
-#title {
-  text-align: center;
-}
+  #title {
+    text-align: center;
+  }
 
   .dog-image {
     position: static;
@@ -198,5 +199,4 @@ h2 {
   .rotated {
     transform: rotate(0deg);
   }
-
 }
