@@ -1,8 +1,11 @@
 /* TODO: Refactor CSS  */
 
-
+html {
+  background-color: black;
+}
 body {
   font-family: "Montserrat";
+  /* background-color: black; */
 }
 
 h1, h2, h3, h4 {
